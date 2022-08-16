@@ -48,7 +48,7 @@ void disp(int* list,int a)
 
 void del(int* list, int pos)
 {
-    if((list!=NULL)&&(pos<=size))
+    if((list!=NULL)&&(pos<=size)&&(pos>-1))
 	{
     
     for(int i=pos; i<size;i++)
