@@ -94,7 +94,7 @@ int pop()
     else
     {
         printf("\nCouldn't retrive data\n");
-        return INT_MIN;
+        return -1;
 
     }
 }
