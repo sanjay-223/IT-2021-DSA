@@ -170,6 +170,7 @@ int getsea()
 
 void main()
 {
+        int a,b;
 	char fl;
 	create();
     inp(list);
@@ -198,8 +199,8 @@ void main()
 				break;
 
 			case '5':
-				int a = getsea();
-				int b = search(list,a);
+				 a = getsea();
+				 b = search(list,a);
 				(b!=-1)?printf("\n%d found at %d",a,b):printf("\n");
 				break;
 
